@@ -1,12 +1,12 @@
 const ending = document.querySelector('.ending')
 
-setInterval(()=>{
+/*setInterval(()=>{
 	if(ending.innerHTML == "xter") {
 		ending.innerHTML = ".rip"
 	} else {
 		ending.innerHTML = "xter"
 	}
-}, 2500);
+}, 2500);*/
 
 const discord = document.querySelector('.discord')
 discord.addEventListener("mouseenter", (e) => {document.querySelector(`.discord-extra`).innerHTML = ` ♱ discord`;});
