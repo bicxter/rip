@@ -11,8 +11,10 @@ body {
 }
 
 .center {
+	width: 10vw;
 	position: absolute;
 	left: 50%;
+	text-align: left;
 	top: 50%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -21,8 +23,17 @@ body {
 	-o-transform: translate(-50%, -50%);
 }
 
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.center {
+	  width: 25vw;
+	}
+  }
+
+
+
 a {
-	text-decoration: none;
+	text-decoration: none !important; 
 }
 
 .ending {
@@ -37,27 +48,11 @@ a {
   min-height: 100%;
 }*/
 
-video {
+.bg {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%); 
 	height: 100%;
 	filter: brightness(50%);
-}
-
-
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  background: #ddd;
-  color: black;
 }
