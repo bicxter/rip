@@ -12,7 +12,7 @@ btn.addEventListener('click', (e)=>{
         btn.innerHTML = "<span class=\"material-symbols-outlined\">pause</span>";
 	} else {
     	bg.pause();
-        btn.innerHTML = "<span class=\"material-symbols-outlined\">play</span>";
+        btn.innerHTML = "<span class=\"material-symbols-outlined\">play_arrow</span>";
   }
 })
 
