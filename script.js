@@ -9,10 +9,10 @@ btn.addEventListener('click', (e)=>{
 	console.log('hi')
 	if (bg.paused) {
 		bg.play();
-		btn.innerHTML = "||";
+        btn.innerHTML = "<span class=\"material-symbols-outlined\">pause</span>";
 	} else {
     	bg.pause();
-    	btn.innerHTML = "|>";
+        btn.innerHTML = "<span class=\"material-symbols-outlined\">play</span>";
   }
 })
 
