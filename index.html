@@ -3,14 +3,17 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>bicxter</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link rel="icon" type="image/x-icon" href="icon.ico">
+
 </head>
 
 <body>
-<video autoplay muted id="myVideo">
+<video autoplay loop muted class='bg'>
   <source src="cancún.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -18,32 +21,14 @@ Your browser does not support the video tag.
 		<a href="https://bicxter.netlify.app">
 			<h1 class='main'>bic<span class='ending'>xter<span></h1>
 		</a>
-				<h1>-----------</h1>
-		<h5 class="social"><a href="https://discord.com/invite/38UFeKGD" class="discord">♱ bicxter#0666</a><span class="discord-extra"></span></h5>
-		<h5 class="social"><a href="https://github.com/bicxter" class="github">♱ /bicxter</a><span class="github-extra"></span></h5>
-		<h5 class="social"><a href="https://www.instagram.com/bicxter0/" class="instagram">♱ @bicxter0</a><span class="instagram-extra"></span></h5>
-		<h5 class="social"><a href="https://twitter.com/bicxter" class="twitter">♱ @bicxter</a><span class="twitter-extra"></span></h5>
+		<hr>
+		<h5 class="social"><a href="https://discord.com/invite/38UFeKGD" class="discord">♱ discord</a></h5>
+		<h5 class="social"><a href="https://github.com/bicxter" class="github">♱ github</a></h5>
+		<h5 class="social"><a href="https://www.instagram.com/bicxter0/" class="instagram">♱ instagram</a></h5>
+		<h5 class="social"><a href="https://twitter.com/bicxter" class="twitter">♱ twitter</a></h5>
 	</div>
-			<button id="myBtn" onclick="myFunction()">Pause</button>
+			<button class="btn btn-success">||</button>
 	<script src="script.js"></script>
-<script>
-// Get the video
-var video = document.getElementById("myVideo");
-
-// Get the button
-var btn = document.getElementById("myBtn");
-
-// Pause and play the video, and change the button text
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
-</script>
 </body>
 
 </html>
