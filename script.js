@@ -1,4 +1,21 @@
 const ending = document.querySelector('.ending')
+var bg = document.querySelector(".bg");
+
+// Get the button
+var btn = document.querySelector(".btn");
+
+// Pause and play the video, and change the button text
+btn.addEventListener('click', (e)=>{
+	console.log('hi')
+	if (bg.paused) {
+		bg.play();
+		btn.innerHTML = "||";
+	} else {
+    	bg.pause();
+    	btn.innerHTML = "|>";
+  }
+})
+
 
 /*setInterval(()=>{
 	if(ending.innerHTML == "xter") {
@@ -9,14 +26,14 @@ const ending = document.querySelector('.ending')
 }, 2500);*/
 
 const discord = document.querySelector('.discord')
-discord.addEventListener("mouseenter", (e) => {document.querySelector(`.discord-extra`).innerHTML = ` ♱ discord`;});
-discord.addEventListener("mouseleave", (e) => {document.querySelector(`.discord-extra`).innerHTML = '';})
+discord.addEventListener("mouseenter", (e) => {document.querySelector(`.discord`).innerHTML = '♱ bicxter#0666';})
+discord.addEventListener("mouseleave", (e) => {document.querySelector(`.discord`).innerHTML = `♱ discord`;});
 const github = document.querySelector('.github')
-github.addEventListener("mouseenter", (e) => {document.querySelector(`.github-extra`).innerHTML = ` ♱ github`;});
-github.addEventListener("mouseleave", (e) => {document.querySelector(`.github-extra`).innerHTML = '';})
+github.addEventListener("mouseenter", (e) => {document.querySelector(`.github`).innerHTML = '♱ /bicxter';})
+github.addEventListener("mouseleave", (e) => {document.querySelector(`.github`).innerHTML = `♱ github`;});
 const instagram = document.querySelector('.instagram')
-instagram.addEventListener("mouseenter", (e) => {document.querySelector(`.instagram-extra`).innerHTML = ` ♱ instagram`;});
-instagram.addEventListener("mouseleave", (e) => {document.querySelector(`.instagram-extra`).innerHTML = '';})
+instagram.addEventListener("mouseenter", (e) => {document.querySelector(`.instagram`).innerHTML = '♱ bicxter0';})
+instagram.addEventListener("mouseleave", (e) => {document.querySelector(`.instagram`).innerHTML = `♱ instagram`;});
 const twitter = document.querySelector('.twitter')
-twitter.addEventListener("mouseenter", (e) => {document.querySelector(`.twitter-extra`).innerHTML = ` ♱ twitter`;});
-twitter.addEventListener("mouseleave", (e) => {document.querySelector(`.twitter-extra`).innerHTML = '';})
+twitter.addEventListener("mouseenter", (e) => {document.querySelector(`.twitter`).innerHTML = '♱ bicxter';})
+twitter.addEventListener("mouseleave", (e) => {document.querySelector(`.twitter`).innerHTML = `♱ twitter`;});
