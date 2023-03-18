@@ -38,9 +38,14 @@ a {
 }*/
 
 video {
-height: 100%;
-width: 100vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+	height: 100%;
+	filter: brightness(50%);
 }
+
 
 #myBtn {
   width: 200px;
