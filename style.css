@@ -56,3 +56,10 @@ a {
 	height: 100%;
 	filter: brightness(50%);
 }
+
+.btn {
+	background: none;
+	border: 1px #fff solid;
+	border-radius: 5px;
+	width: 100%;
+}
