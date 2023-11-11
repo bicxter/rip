@@ -25,15 +25,13 @@ btn.addEventListener('click', (e)=>{
 	}
 }, 2500);*/
 
-const discord = document.querySelector('.discord')
-discord.addEventListener("mouseenter", (e) => {document.querySelector(`.discord`).innerHTML = '♱ bicxter#0666';})
-discord.addEventListener("mouseleave", (e) => {document.querySelector(`.discord`).innerHTML = `♱ discord`;});
 const github = document.querySelector('.github')
 github.addEventListener("mouseenter", (e) => {document.querySelector(`.github`).innerHTML = '♱ /bicxter';})
 github.addEventListener("mouseleave", (e) => {document.querySelector(`.github`).innerHTML = `♱ github`;});
 const instagram = document.querySelector('.instagram')
 instagram.addEventListener("mouseenter", (e) => {document.querySelector(`.instagram`).innerHTML = '♱ bicxter0';})
 instagram.addEventListener("mouseleave", (e) => {document.querySelector(`.instagram`).innerHTML = `♱ instagram`;});
-const twitter = document.querySelector('.twitter')
-twitter.addEventListener("mouseenter", (e) => {document.querySelector(`.twitter`).innerHTML = '♱ bicxter';})
-twitter.addEventListener("mouseleave", (e) => {document.querySelector(`.twitter`).innerHTML = `♱ twitter`;});
+const tiktok = document.querySelector('.tiktok')
+instagram.addEventListener("mouseenter", (e) => {document.querySelector(`.tiktok`).innerHTML = '♱ fortniebals';})
+instagram.addEventListener("mouseleave", (e) => {document.querySelector(`.tiktok`).innerHTML = `♱ tiktok`;});
+
