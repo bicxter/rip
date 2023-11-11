@@ -2,6 +2,17 @@
 
 body {
 	background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 20%; /* or any other percentage you'd like */
+    max-width: 1200px; /* or the maximum width you'd like */
+	min-width: 100px;
 }
 
 * {
@@ -9,27 +20,6 @@ body {
 	font-family: 'Courier Prime', monospace;
 	text-shadow: 0px 0px 20px #ffffff;
 }
-
-.center {
-	width: 10vw;
-	position: absolute;
-	left: 50%;
-	text-align: left;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-}
-
-@media only screen and (max-width: 768px) {
-	/* For mobile phones: */
-	.center {
-	  width: 25vw;
-	}
-  }
-
 
 
 a {
@@ -40,21 +30,15 @@ a {
 	color: #fff;
 }
 
-/*#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}*/
-
 .bg {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%); 
 	height: 100%;
+	width: 100%;
 	filter: brightness(50%);
+	z-index: -999;
 }
 
 .btn {
