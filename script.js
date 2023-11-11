@@ -32,6 +32,6 @@ const instagram = document.querySelector('.instagram')
 instagram.addEventListener("mouseenter", (e) => {document.querySelector(`.instagram`).innerHTML = '♱ bicxter0';})
 instagram.addEventListener("mouseleave", (e) => {document.querySelector(`.instagram`).innerHTML = `♱ instagram`;});
 const tiktok = document.querySelector('.tiktok')
-instagram.addEventListener("mouseenter", (e) => {document.querySelector(`.tiktok`).innerHTML = '♱ fortniebals';})
-instagram.addEventListener("mouseleave", (e) => {document.querySelector(`.tiktok`).innerHTML = `♱ tiktok`;});
+tiktok.addEventListener("mouseenter", (e) => {document.querySelector(`.tiktok`).innerHTML = '♱ fortniebals';})
+tiktok.addEventListener("mouseleave", (e) => {document.querySelector(`.tiktok`).innerHTML = `♱ tiktok`;});
 
