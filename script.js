@@ -13,9 +13,6 @@ const ending = document.querySelector('.ending')
 const github = document.querySelector('.github')
 github.addEventListener("mouseenter", (e) => {document.querySelector(`.github`).innerHTML = '♱ bicxter';})
 github.addEventListener("mouseleave", (e) => {document.querySelector(`.github`).innerHTML = `♱ github`;});
-const instagram = document.querySelector('.instagram')
-instagram.addEventListener("mouseenter", (e) => {document.querySelector(`.instagram`).innerHTML = '♱ iliancool123';})
-instagram.addEventListener("mouseleave", (e) => {document.querySelector(`.instagram`).innerHTML = `♱ instagram`;});
 const tiktok = document.querySelector('.tiktok')
 tiktok.addEventListener("mouseenter", (e) => {document.querySelector(`.tiktok`).innerHTML = '♱ fortniebals';})
 tiktok.addEventListener("mouseleave", (e) => {document.querySelector(`.tiktok`).innerHTML = `♱ tiktok`;});
