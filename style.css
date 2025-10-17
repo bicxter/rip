@@ -38,7 +38,7 @@ a {
     height: 100%;
     object-fit: cover;
     z-index: -999;
-	filter: brightness(75%);
+	filter: brightness(50%);
 }
 
 
